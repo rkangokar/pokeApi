@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5305" started-at="2019-07-08T00:32:04Z" finished-at="2019-07-08T00:32:09Z">
+  <suite name="Suite" duration-ms="5433" started-at="2019-07-08T01:58:18Z" finished-at="2019-07-08T01:58:24Z">
     <groups>
       <group name="enable">
         <method signature="FetchPokemonAbilityByNumber.validatePokemonHasAbility()[pri:0, instance:service.testing.pokeApi.FetchPokemonAbilityByNumber@685cb137]" name="validatePokemonHasAbility" class="service.testing.pokeApi.FetchPokemonAbilityByNumber"/>
@@ -13,35 +13,35 @@
         <method signature="FetchPokemonTypeByNumber.validateResponse()[pri:0, instance:service.testing.pokeApi.FetchPokemonTypeByNumber@604ed9f0]" name="validateResponse" class="service.testing.pokeApi.FetchPokemonTypeByNumber"/>
       </group> <!-- enable -->
     </groups>
-    <test name="Test" duration-ms="5305" started-at="2019-07-08T00:32:04Z" finished-at="2019-07-08T00:32:09Z">
+    <test name="Test" duration-ms="5433" started-at="2019-07-08T01:58:18Z" finished-at="2019-07-08T01:58:24Z">
       <class name="service.testing.pokeApi.FetchPokemonTypeByNumber">
-        <test-method status="PASS" signature="getListOfPokemonbyType()[pri:0, instance:service.testing.pokeApi.FetchPokemonTypeByNumber@604ed9f0]" name="getListOfPokemonbyType" duration-ms="1899" started-at="2019-07-08T00:32:04Z" finished-at="2019-07-08T00:32:05Z">
+        <test-method status="PASS" signature="getListOfPokemonbyType()[pri:0, instance:service.testing.pokeApi.FetchPokemonTypeByNumber@604ed9f0]" name="getListOfPokemonbyType" duration-ms="1463" started-at="2019-07-08T01:58:18Z" finished-at="2019-07-08T01:58:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListOfPokemonbyType -->
-        <test-method status="PASS" signature="validateResponse()[pri:0, instance:service.testing.pokeApi.FetchPokemonTypeByNumber@604ed9f0]" name="validateResponse" duration-ms="171" started-at="2019-07-08T00:32:05Z" finished-at="2019-07-08T00:32:06Z">
+        <test-method status="PASS" signature="validateResponse()[pri:0, instance:service.testing.pokeApi.FetchPokemonTypeByNumber@604ed9f0]" name="validateResponse" duration-ms="131" started-at="2019-07-08T01:58:20Z" finished-at="2019-07-08T01:58:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateResponse -->
       </class> <!-- service.testing.pokeApi.FetchPokemonTypeByNumber -->
       <class name="service.testing.pokeApi.FetchPokemonAbilityByNumber">
-        <test-method status="PASS" signature="validatePokemonHasAbility()[pri:0, instance:service.testing.pokeApi.FetchPokemonAbilityByNumber@685cb137]" name="validatePokemonHasAbility" duration-ms="1491" started-at="2019-07-08T00:32:06Z" finished-at="2019-07-08T00:32:07Z">
+        <test-method status="PASS" signature="validatePokemonHasAbility()[pri:0, instance:service.testing.pokeApi.FetchPokemonAbilityByNumber@685cb137]" name="validatePokemonHasAbility" duration-ms="1298" started-at="2019-07-08T01:58:20Z" finished-at="2019-07-08T01:58:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePokemonHasAbility -->
       </class> <!-- service.testing.pokeApi.FetchPokemonAbilityByNumber -->
       <class name="service.testing.pokeApi.FetchPokemonByNumber">
-        <test-method status="PASS" signature="validatePokemonViaName()[pri:0, instance:service.testing.pokeApi.FetchPokemonByNumber@6a41eaa2]" name="validatePokemonViaName" duration-ms="1228" started-at="2019-07-08T00:32:07Z" finished-at="2019-07-08T00:32:08Z">
+        <test-method status="PASS" signature="validatePokemonViaName()[pri:0, instance:service.testing.pokeApi.FetchPokemonByNumber@6a41eaa2]" name="validatePokemonViaName" duration-ms="2053" started-at="2019-07-08T01:58:21Z" finished-at="2019-07-08T01:58:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePokemonViaName -->
       </class> <!-- service.testing.pokeApi.FetchPokemonByNumber -->
       <class name="service.testing.pokeApi.FetchPokemonByName">
-        <test-method status="PASS" signature="fetchPokemonByName()[pri:0, instance:service.testing.pokeApi.FetchPokemonByName@6a4f787b]" name="fetchPokemonByName" duration-ms="133" started-at="2019-07-08T00:32:08Z" finished-at="2019-07-08T00:32:08Z">
+        <test-method status="PASS" signature="fetchPokemonByName()[pri:0, instance:service.testing.pokeApi.FetchPokemonByName@6a4f787b]" name="fetchPokemonByName" duration-ms="135" started-at="2019-07-08T01:58:23Z" finished-at="2019-07-08T01:58:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchPokemonByName -->
-        <test-method status="PASS" signature="validatePokemonViaNumber()[pri:0, instance:service.testing.pokeApi.FetchPokemonByName@6a4f787b]" name="validatePokemonViaNumber" duration-ms="361" started-at="2019-07-08T00:32:08Z" finished-at="2019-07-08T00:32:09Z">
+        <test-method status="PASS" signature="validatePokemonViaNumber()[pri:0, instance:service.testing.pokeApi.FetchPokemonByName@6a4f787b]" name="validatePokemonViaNumber" duration-ms="326" started-at="2019-07-08T01:58:23Z" finished-at="2019-07-08T01:58:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePokemonViaNumber -->
