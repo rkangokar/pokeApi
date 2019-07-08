@@ -8,6 +8,8 @@ import io.restassured.specification.RequestSpecification;
 
 public class PokemonRequest {
 	
+	/*
+	 * API request to fetch pokemon by ID */
 	public Response sendRequestByNumber(int n) {
 		RestAssured.baseURI = Variables.Domain.field() + Variables.FetchPokemon.field() ;
 		RequestSpecification request = RestAssured.given();
